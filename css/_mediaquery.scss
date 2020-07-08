@@ -1,0 +1,107 @@
+// 992px responsive
+@media (max-width: 992px) {
+  .headphone {
+    .h-phone-img {
+      margin: 65px auto;
+    }
+    .head-ph-content {
+      // padding: 40px;
+    }
+  }
+}
+
+// 768px responsive
+@media (max-width: 768px) {
+  .header-slider {
+    padding: 0 20px;
+    h2 {
+      font-size: 42px !important;
+    }
+  }
+
+  .headphone {
+    .head-ph-content {
+      text-align: center;
+      padding: 0 40px 0 40px !important;
+    }
+  }
+
+  .all-card-edit {
+    padding: 0 !important;
+  }
+
+  .power-btn-sec {
+    margin-bottom: 60px;
+    padding: 0 20px 20px 20px;
+  }
+
+  .testimonials {
+    .client {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  .footer-nav {
+    display: flex;
+    justify-content: center;
+  }
+  .copyright {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+// 592px responsive
+@media (max-width: 592px) {
+  .lot-of-feat h2 {
+    font-size: 42px !important;
+  }
+
+  .all-card-edit {
+    margin-bottom: 70px;
+    padding: 0 40px !important;
+    line-height: 2.3;
+    img {
+      margin-bottom: 15px;
+    }
+    p {
+      color: #66778e;
+    }
+  }
+}
+
+// 480px responsive
+// header-slider
+@media (max-width: 480px) {
+  .nav-edit {
+    a > h2 {
+      font-size: 28px;
+    }
+  }
+
+  .header-slider {
+    h2 {
+      font-size: 36px !important;
+    }
+  }
+
+  .head-ph-content {
+    h2 {
+      font-size: 36px !important;
+    }
+  }
+
+  .lot-of-feat h2 {
+    font-size: 36px !important;
+  }
+
+  .discover-new-music h3 {
+    font-size: 28px !important;
+  }
+
+  .copyright{
+    p{
+      text-align: center;
+    }
+  }
+}
